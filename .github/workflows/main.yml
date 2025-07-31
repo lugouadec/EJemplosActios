@@ -1,6 +1,9 @@
 name: Hola Mundo
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 
 jobs:   
   saludar:
