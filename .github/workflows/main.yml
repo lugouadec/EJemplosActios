@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Muestra Mensaje Hola Mundo Lugo
-      - run: echo "Hola Mundo Lugo"
+        run: echo "Hola Mundo Lugo"
   
