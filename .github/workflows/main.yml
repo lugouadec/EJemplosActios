@@ -4,8 +4,8 @@ on: [push]
 
 jobs:   
   saludar:
-    run on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Muestra Mensaje Hola Mundo Lugo
-      - echo "Hola Mundo Lugo"
+      - run: echo "Hola Mundo Lugo"
   
