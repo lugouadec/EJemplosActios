@@ -10,8 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Muestra Mensaje Hola Mundo Lugo
-        run: 
-          echo "Hola Mundo Lugo"
-          tree 
-          echo "Se Completo la tarea "
-  
+        run: echo "Hola Mundo Lugo"
