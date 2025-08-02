@@ -1,12 +1,14 @@
 name: Hola Mundo
 
 on: 
-  schedule:
-    - cron: "*/5 * * * *" #se Ejecuta cada cinco minutos
+  worworkflow_dispatch:
+        
+  # schedule:
+  #   - cron: "*/5 * * * *" #se Ejecuta cada cinco minutos
 
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:   
   saludar:
