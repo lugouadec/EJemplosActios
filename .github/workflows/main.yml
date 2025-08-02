@@ -16,3 +16,12 @@ jobs:
     steps:
       - name: Muestra Mensaje Hola Mundo Lugo
         run: echo "Hola Mundo Lugo"
+        
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Listar los archivos del repositorio 
+        run: |
+          echo "El repositorio ${{ github.repository }} contiene los siguientes archivos: "
+          tree
+          
