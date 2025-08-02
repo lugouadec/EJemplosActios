@@ -10,6 +10,9 @@ on:
     branches:
       - main
 
+      paths:
+        - 'codigo/**'
+        -'.github/workflows/main.yml'
   pull_request:
     branches:
       - main
